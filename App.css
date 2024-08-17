@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+ /* create contact from for user manganement  */
+
+  .app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/03/08/13/22/fan-7055740_1280.jpg');
+  }
+  .app h1{
+    margin: auto;
+    margin-left: 10rem;
+    padding-bottom: 30px;
+    color: white;
+  }
+
+  .user_add{
+    margin-top: 40px;
+    /* background-color: rgb(210, 107, 124); */
+    
+  }
+  .searchbar{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid paleturquoise;
+    width: 50%;
+    margin-left: 10rem;
+    margin-top: 30px;
+  }
+  
+  .contact-form input,
+  .contact-form select,
+  .contact-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 8px;
+  }
+  
+  .contact-form button {
+    background-color: #076d7c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+  }
+  .contact-form button :hover{
+    background-color: #006aff;
+  }
+  
+  .contact-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 20px;
+
+  }
+  
+  .contact-card {
+    border: 1px solid wheat;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: orange;
+  }
+  
+  .contact-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+ 
